@@ -1,0 +1,130 @@
+[
+ {
+   "id": 1,
+   "menuName": "Administration",
+   "url": "",
+   "iconName": "fa fa-edit",
+   "parentID": 0,
+   "menuLevel": 0,
+   "isActive": false,
+   "createdBy": null,
+   "createdDate": "0001-01-01T00:00:00",
+   "modifiedBy": null,
+   "modifiedDate": "0001-01-01T00:00:00",
+   "oCFRMenuModelList": null,
+   "menuLevel2List": [
+     {
+       "menuName": "Masters",
+       "url": "",
+       "iconName": "fa fa-database",
+       "parentID": 1,
+       "menuLevel": 0,
+       "isActive": false,
+       "menuLevel3List": [
+         {
+           "menuName": "Accounting Standard",
+           "url": "/AccountingStandard",
+           "iconName": "fa fa-book",
+           "parentID": 4,
+           "menuLevel": 0,
+           "isActive": false,
+           "id": 5,
+           "isChecked": false,
+           "orderBy": 0
+         },
+         {
+           "menuName": "Industry",
+           "url": "/Industry",
+           "iconName": "fa fa-industry",
+           "parentID": 4,
+           "menuLevel": 0,
+           "isActive": false,
+           "id": 6,
+           "isChecked": false,
+           "orderBy": 0
+         },
+         {
+           "menuName": "Location",
+           "url": "/Location",
+           "iconName": "fa fa-location-arrow",
+           "parentID": 4,
+           "menuLevel": 0,
+           "isActive": false,
+           "id": 7,
+           "isChecked": false,
+           "orderBy": 0
+         },
+         {
+           "menuName": "Currency",
+           "url": "/CurrencyMaster",
+           "iconName": "fa fa-money",
+           "parentID": 4,
+           "menuLevel": 0,
+           "isActive": false,
+           "id": 8,
+           "isChecked": false,
+           "orderBy": 0
+         },
+         {
+           "menuName": "Exchange Rates",
+           "url": "/Currency",
+           "iconName": "fa fa-gg-circle",
+           "parentID": 4,
+           "menuLevel": 0,
+           "isActive": false,
+           "id": 9,
+           "isChecked": false,
+           "orderBy": 0
+         },
+         {
+           "menuName": "Template Configuration",
+           "url": "/TemplateConfiguration",
+           "iconName": "fa fa-bar-chart",
+           "parentID": 4,
+           "menuLevel": 0,
+           "isActive": false,
+           "id": 95,
+           "isChecked": false,
+           "orderBy": 0
+         }
+       ],
+       "id": 4,
+       "childIds": "5,6,7,8,9,95",
+       "isChecked": false,
+       "orderBy": 0
+     },
+     {
+       "menuName": "Security",
+       "url": "",
+       "iconName": "fa fa-lock",
+       "parentID": 1,
+       "menuLevel": 0,
+       "isActive": false,
+       "menuLevel3List": [
+         {
+           "menuName": "Register Admin",
+           "url": "/Registration",
+           "iconName": "fa fa-users",
+           "parentID": 10,
+           "menuLevel": 0,
+           "isActive": false,
+           "id": 11,
+           "isChecked": false,
+           "orderBy": 0
+         },
+         {
+           "menuName": "User Management",
+           "url": "/UserManagement",
+           "iconName": "fa fa-user-plus",
+           "parentID": 10,
+           "menuLevel": 0,
+           "isActive": false,
+           "id": 12,
+           "isChecked": false,
+           "orderBy": 0
+         }
+       ]
+     }
+   ]
+ }
+]
